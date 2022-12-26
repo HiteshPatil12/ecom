@@ -1,0 +1,18 @@
+.products{
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background: beige;
+}
+.productList{
+    background: #e9e9d3;
+    border: 1px solid #a5a58d;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.floatR{
+    float: right;
+    border-radius: 20px;
+}

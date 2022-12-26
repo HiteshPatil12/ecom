@@ -1,6 +1,9 @@
-<p>products works!</p>
-<div class="containiner">
-    <p>Product 1</p>
-    <p>Product 1</p>
-    <p>Product 1</p>
+<div class="products">
+    <div class="col-md-12">
+        <h3>Products</h3>
+        <div class="productList" *ngFor="let product of productList">
+            <a>{{product}}</a>
+            <button class="floatR btn btn-info" (click)="addToCart({product})">+</button>
+        </div>
+    </div>
 </div>
